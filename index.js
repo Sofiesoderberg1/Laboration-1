@@ -5,7 +5,7 @@ const rl = readline.createInterface({
     output: process.stdout,
 })
 rl.on('line', (line) => {
-  console.log(`Hej: ${line}`);
+  console.log(`Hej ${line}`);
 });
 
-console.log ("hej sofie")
+console.log ("Vad heter du?")
